@@ -66,5 +66,6 @@ SampleApp::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
    config.assets.precompile += ['static_pages.css']
+   config.assets.precompile += ['sessions.css']
    config.force_ssl = true
 end
