@@ -68,6 +68,15 @@ h1 {
 	text-align: center;
 }
 
+ h4 {
+		font-size: 1.2em;
+		text-align: left;
+      	letter-spacing: -1px;
+      	margin-bottom: 3px;		
+		color: $grayLight;
+
+}
+
 h2 {
 	font-size: 1.7em;
 	letter-spacing: -1px;
@@ -159,6 +168,9 @@ aside {
       letter-spacing: -1px;
       margin-bottom: 3px;
       margin-top: 0px;
+
+
+
     }
   }
 }
@@ -201,5 +213,21 @@ input
   @extend .error;
 }
 
+/* users index */
 
+.users {
+	list-style:  none;
+	margin: 0;
+	li {
+		overflow: auto;
+		padding: 10px 0;
+		border-top: 1 px solid $grayLighter;
+		&:last-child{
+			border-bottom: 1 px solid $grayLighter;
+		}
+
+	}
+
+
+}
 
